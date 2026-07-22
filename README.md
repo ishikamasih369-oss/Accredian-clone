@@ -1,36 +1,201 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Clone
 
-## Getting Started
+A modern, responsive enterprise learning platform built with **Next.js 16**, **React**, and **Tailwind CSS**. This project recreates an enterprise landing page with dynamic API integration, reusable components, and a clean, professional user interface.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+**Live Website:** https://accredian-clone-eta-woad.vercel.app/
+
+**GitHub Repository:** https://github.com/ishikamasih369-oss/Accredian-clone
+
+---
+
+## 📌 Features
+
+- Modern responsive landing page
+- Enterprise-focused UI/UX
+- Built with Next.js App Router
+- Reusable React components
+- Tailwind CSS styling
+- Dynamic API integration
+- Contact form with POST API
+- Company logos section
+- Learning programs section
+- Learning domains
+- Learning framework
+- Statistics section
+- Testimonials
+- FAQ accordion
+- Fully responsive design
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Next.js API Routes
+- React Icons
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+├── api/
+│   ├── homepage/
+│   └── contact/
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Stats/
+│   ├── Programs/
+│   ├── Domains/
+│   ├── Framework/
+│   ├── Companies/
+│   ├── WhyChoose/
+│   ├── Testimonials/
+│   ├── FAQ/
+│   ├── Contact/
+│   └── Footer/
+├── types/
+├── globals.css
+└── layout.tsx
+```
+
+---
+
+## 🔌 API Endpoints
+
+### GET `/api/homepage`
+
+Returns mock data for:
+
+- Companies
+- Testimonials
+- FAQs
+
+Example:
+
+```json
+{
+  "companies": [],
+  "testimonials": [],
+  "faqs": []
+}
+```
+
+---
+
+### POST `/api/contact`
+
+Accepts contact form submissions.
+
+Example Request
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "company": "ABC Pvt Ltd"
+}
+```
+
+Example Response
+
+```json
+{
+  "success": true,
+  "message": "Thank you! We will contact you soon."
+}
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/accredian-clone.git
+```
+
+Go to the project folder
+
+```bash
+cd accredian-clone
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Assignment Requirements Covered
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Next.js App Router
+- ✅ React Functional Components
+- ✅ Tailwind CSS
+- ✅ Responsive Design
+- ✅ API Integration
+- ✅ Reusable Components
+- ✅ Enterprise Landing Page
+- ✅ Contact Form
+- ✅ Production Build
+- ✅ Vercel Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤖 AI Usage
 
-## Deploy on Vercel
+AI assistance was used during the development process to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Plan the project structure
+- Improve component organization
+- Refine UI/UX design
+- Debug build issues
+- Optimize Tailwind CSS styling
+- Generate reusable component patterns
+- Improve API integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All code was reviewed, integrated, tested, and customized before deployment.
+
+---
+
+## 📷 Screenshots
+
+Folder Added
+
+---
+
+## 👩‍💻 Author
+
+**Ishika Masih**
+
+GitHub: https://github.com/ishikamasih369-oss
+
+---
+
+## 📄 License
+
+This project was created for an internship assignment and educational purposes.
